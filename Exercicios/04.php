@@ -1,10 +1,10 @@
 <?php
-	$valor_um = 100;
+	$valor_um = 4;
     $valor_dois = 10;
 
-    function calculaQuadrado(numero) {
-        num * num;
-        return num;
+    function calculaQuadrado($num) {
+        $num = $num * $num;
+        return $num;
     };
 
     $soma_quadrado = calculaQuadrado($valor_um) + calculaQuadrado($valor_dois);
